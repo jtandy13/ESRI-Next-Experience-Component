@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_lib_component">
+    <sys_ux_lib_component action="INSERT_OR_UPDATE">
+        <default_children/>
+        <default_layout/>
+        <deprecated>false</deprecated>
+        <inner_components/>
+        <overrides/>
+        <required_sys_props/>
+        <required_translation_keys/>
+        <required_user_prefs/>
+        <source_script/>
+        <source_script_name>snc-wds-esri-base-map</source_script_name>
+        <sys_class_name>sys_ux_lib_component</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2023-06-04 21:10:18</sys_created_on>
+        <sys_id>78cc4ab31a540d8fe9ba636217ba5e4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>snc-wds-esri-base-map</sys_name>
+        <sys_package display_value="snc-wds-esri-base-map" source="x_snc_ebm">f5d7dd24db5761103f875e92f39619a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="snc-wds-esri-base-map">f5d7dd24db5761103f875e92f39619a6</sys_scope>
+        <sys_update_name>sys_ux_lib_component_78cc4ab31a540d8fe9ba636217ba5e4a</sys_update_name>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2023-06-04 21:10:18</sys_updated_on>
+        <tag>snc-wds-esri-base-map</tag>
+    </sys_ux_lib_component>
+</record_update>

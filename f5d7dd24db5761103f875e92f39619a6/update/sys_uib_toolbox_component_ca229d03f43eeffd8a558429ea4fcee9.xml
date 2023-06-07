@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_toolbox_component">
+    <sys_uib_toolbox_component action="INSERT_OR_UPDATE">
+        <component_config/>
+        <config_layout/>
+        <description>A description of my component</description>
+        <external_configuration_sources/>
+        <group/>
+        <group_category/>
+        <group_icon/>
+        <icon>document-outline</icon>
+        <image_icon/>
+        <internal_component>false</internal_component>
+        <label>My Component</label>
+        <macroponent display_value="My Component">8681d07d1b2a806fa08014c491ced60e</macroponent>
+        <order>0</order>
+        <scripted_config_policy/>
+        <sys_class_name>sys_uib_toolbox_component</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2023-06-04 21:10:22</sys_created_on>
+        <sys_id>ca229d03f43eeffd8a558429ea4fcee9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Component</sys_name>
+        <sys_package display_value="snc-wds-esri-base-map" source="x_snc_ebm">f5d7dd24db5761103f875e92f39619a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="snc-wds-esri-base-map">f5d7dd24db5761103f875e92f39619a6</sys_scope>
+        <sys_update_name>sys_uib_toolbox_component_ca229d03f43eeffd8a558429ea4fcee9</sys_update_name>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2023-06-04 21:10:22</sys_updated_on>
+    </sys_uib_toolbox_component>
+    <sys_translated_text action="delete_multiple" query="documentkey=ca229d03f43eeffd8a558429ea4fcee9"/>
+</record_update>

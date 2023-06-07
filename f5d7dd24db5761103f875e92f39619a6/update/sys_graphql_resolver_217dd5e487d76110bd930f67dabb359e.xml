@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_graphql_resolver">
+    <sys_graphql_resolver action="INSERT_OR_UPDATE">
+        <name>Record Resolver</name>
+        <schema display_value="Get ESRI Map Location Records">6268d92087d76110bd930f67dabb350e</schema>
+        <script><![CDATA[(function process(/*ResolverEnvironment*/ env) {
+
+	var records = [];
+    var gr = new GlideRecord(env.getArguments().tableName);
+	gr.addEncodedQuery(env.getArguments().encodedQuery);
+	gr.query();
+	
+	while(gr.next()) {
+		records.push({
+			sys_id: gr.getUniqueValue(),
+			tableName: env.getArguments().tableName
+		});
+		
+	}
+
+	return records;
+	
+})(env);]]></script>
+        <sys_class_name>sys_graphql_resolver</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2023-06-04 21:38:14</sys_created_on>
+        <sys_id>217dd5e487d76110bd930f67dabb359e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Record Resolver</sys_name>
+        <sys_package display_value="snc-wds-esri-base-map" source="x_snc_ebm">f5d7dd24db5761103f875e92f39619a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="snc-wds-esri-base-map">f5d7dd24db5761103f875e92f39619a6</sys_scope>
+        <sys_update_name>sys_graphql_resolver_217dd5e487d76110bd930f67dabb359e</sys_update_name>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2023-06-04 22:09:24</sys_updated_on>
+    </sys_graphql_resolver>
+</record_update>

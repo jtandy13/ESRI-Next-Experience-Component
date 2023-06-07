@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types>d8899a0473000010f7353c78caf6a750,c1251a89db4c1010793ddf6b5e96199c</associated_types>
+        <category>component</category>
+        <component_dependencies/>
+        <composition>[]</composition>
+        <da_relay_models/>
+        <data/>
+        <description/>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends/>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings/>
+        <layout>{}</layout>
+        <macroponent_dependencies/>
+        <name>My Component</name>
+        <output_prop_mapping/>
+        <props>[]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component display_value="snc-wds-esri-base-map">78cc4ab31a540d8fe9ba636217ba5e4a</root_component>
+        <root_component_config>{}</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2023-06-04 21:10:20</sys_created_on>
+        <sys_id>8681d07d1b2a806fa08014c491ced60e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Component</sys_name>
+        <sys_package display_value="snc-wds-esri-base-map" source="x_snc_ebm">f5d7dd24db5761103f875e92f39619a6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="snc-wds-esri-base-map">f5d7dd24db5761103f875e92f39619a6</sys_scope>
+        <sys_update_name>sys_ux_macroponent_8681d07d1b2a806fa08014c491ced60e</sys_update_name>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2023-06-04 21:10:20</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>
